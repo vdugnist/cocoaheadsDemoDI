@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "WFCViewController.h"
 #import "WFCOpenWeatherService.h"
+#import "WFCLocalWeatherService.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     WFCViewController *vc = (WFCViewController*)self.window.rootViewController;
-    vc.weatherService = [WFCOpenWeatherService new];
+    vc.weatherService = [WFCLocalWeatherService new];
     
     return YES;
 }

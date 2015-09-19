@@ -1,0 +1,22 @@
+{
+    "list":[
+            {
+                "name":"Moscow",
+                "main": {
+                    "temp":21.45,
+                }
+            },
+            {
+                "name":"Tula",
+                "main": {
+                    "temp":24,
+                }
+            },
+            {
+                "name":"Mountain View",
+                "main": {
+                    "temp":22
+                }
+            }
+           ]
+}
