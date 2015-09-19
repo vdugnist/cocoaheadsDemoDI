@@ -7,13 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "WFCWeatherServiceProtocol.h"
 
-typedef void (^WFCArrayCallback)(NSArray *array, NSError *error);
-
-@interface WFCOpenWeatherService : NSObject
-
-+ (instancetype)sharedInstance;
-
-- (void)citiesWeatherWithCallback:(WFCArrayCallback)callback;
+@interface WFCOpenWeatherService : NSObject <WFCWeatherServiceProtocol>
 
 @end

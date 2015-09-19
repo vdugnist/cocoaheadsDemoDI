@@ -21,9 +21,11 @@
 {
     [super viewDidLoad];
     
+    NSAssert(_weatherService, @"Weather service required");
+    
     __weak typeof(self) wSelf = self;
     
-    [[WFCOpenWeatherService sharedInstance] citiesWeatherWithCallback:^(NSArray *array, NSError *error) {
+    [_weatherService citiesWeatherWithCallback:^(NSArray *array, NSError *error) {
         wSelf.cities = array;
         [wSelf.tableView reloadData];
     }];

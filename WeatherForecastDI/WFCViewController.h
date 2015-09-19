@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol WFCWeatherServiceProtocol;
+
 @interface WFCViewController : UIViewController
+
+@property (nonatomic) id <WFCWeatherServiceProtocol> weatherService;
 
 @end
