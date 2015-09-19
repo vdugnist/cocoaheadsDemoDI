@@ -46,6 +46,7 @@
 		DDE80C931BAD6FA700FB672A /* WFCCityWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCCityWeather.m; sourceTree = "<group>"; };
 		DDE80C981BAD726400FB672A /* WFCOpenWeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCOpenWeatherService.h; sourceTree = "<group>"; };
 		DDE80C991BAD726400FB672A /* WFCOpenWeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCOpenWeatherService.m; sourceTree = "<group>"; };
+		DDE80C9C1BAD81B100FB672A /* WFCWeatherServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCWeatherServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +156,7 @@
 		DDE80C9B1BAD737E00FB672A /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				DDE80C9C1BAD81B100FB672A /* WFCWeatherServiceProtocol.h */,
 				DDE80C981BAD726400FB672A /* WFCOpenWeatherService.h */,
 				DDE80C991BAD726400FB672A /* WFCOpenWeatherService.m */,
 			);
