@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		DD58D2981BAD6C5E00F82716 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58D2971BAD6C5E00F82716 /* main.m */; };
 		DD58D29B1BAD6C5E00F82716 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58D29A1BAD6C5E00F82716 /* AppDelegate.m */; };
-		DD58D29E1BAD6C5E00F82716 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58D29D1BAD6C5E00F82716 /* ViewController.m */; };
 		DD58D2A11BAD6C5E00F82716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD58D29F1BAD6C5E00F82716 /* Main.storyboard */; };
 		DD58D2A31BAD6C5E00F82716 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD58D2A21BAD6C5E00F82716 /* Images.xcassets */; };
 		DD58D2A61BAD6C5E00F82716 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD58D2A41BAD6C5E00F82716 /* LaunchScreen.xib */; };
 		DD58D2B21BAD6C5E00F82716 /* WeatherForecastDITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58D2B11BAD6C5E00F82716 /* WeatherForecastDITests.m */; };
+		DDE80C911BAD6D8C00FB672A /* WFCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE80C901BAD6D8C00FB672A /* WFCViewController.m */; };
+		DDE80C941BAD6FA700FB672A /* WFCCityWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE80C931BAD6FA700FB672A /* WFCCityWeather.m */; };
+		DDE80C9A1BAD726400FB672A /* WFCOpenWeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE80C991BAD726400FB672A /* WFCOpenWeatherService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		DD58D2971BAD6C5E00F82716 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD58D2991BAD6C5E00F82716 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD58D29A1BAD6C5E00F82716 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD58D29C1BAD6C5E00F82716 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DD58D29D1BAD6C5E00F82716 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DD58D2A01BAD6C5E00F82716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD58D2A21BAD6C5E00F82716 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DD58D2A51BAD6C5E00F82716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DD58D2AB1BAD6C5E00F82716 /* WeatherForecastDITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherForecastDITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD58D2B01BAD6C5E00F82716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD58D2B11BAD6C5E00F82716 /* WeatherForecastDITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherForecastDITests.m; sourceTree = "<group>"; };
+		DDE80C8F1BAD6D8C00FB672A /* WFCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCViewController.h; sourceTree = "<group>"; };
+		DDE80C901BAD6D8C00FB672A /* WFCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCViewController.m; sourceTree = "<group>"; };
+		DDE80C921BAD6FA700FB672A /* WFCCityWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCCityWeather.h; sourceTree = "<group>"; };
+		DDE80C931BAD6FA700FB672A /* WFCCityWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCCityWeather.m; sourceTree = "<group>"; };
+		DDE80C981BAD726400FB672A /* WFCOpenWeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCOpenWeatherService.h; sourceTree = "<group>"; };
+		DDE80C991BAD726400FB672A /* WFCOpenWeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCOpenWeatherService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +87,7 @@
 		DD58D2941BAD6C5E00F82716 /* WeatherForecastDI */ = {
 			isa = PBXGroup;
 			children = (
-				DD58D2991BAD6C5E00F82716 /* AppDelegate.h */,
-				DD58D29A1BAD6C5E00F82716 /* AppDelegate.m */,
-				DD58D29C1BAD6C5E00F82716 /* ViewController.h */,
-				DD58D29D1BAD6C5E00F82716 /* ViewController.m */,
-				DD58D29F1BAD6C5E00F82716 /* Main.storyboard */,
-				DD58D2A21BAD6C5E00F82716 /* Images.xcassets */,
-				DD58D2A41BAD6C5E00F82716 /* LaunchScreen.xib */,
+				DDE80C971BAD705D00FB672A /* Source */,
 				DD58D2951BAD6C5E00F82716 /* Supporting Files */,
 			);
 			path = WeatherForecastDI;
@@ -96,6 +96,10 @@
 		DD58D2951BAD6C5E00F82716 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD58D2991BAD6C5E00F82716 /* AppDelegate.h */,
+				DD58D29A1BAD6C5E00F82716 /* AppDelegate.m */,
+				DD58D2A21BAD6C5E00F82716 /* Images.xcassets */,
+				DD58D2A41BAD6C5E00F82716 /* LaunchScreen.xib */,
 				DD58D2961BAD6C5E00F82716 /* Info.plist */,
 				DD58D2971BAD6C5E00F82716 /* main.m */,
 			);
@@ -117,6 +121,44 @@
 				DD58D2B01BAD6C5E00F82716 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE80C951BAD704500FB672A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDE80C921BAD6FA700FB672A /* WFCCityWeather.h */,
+				DDE80C931BAD6FA700FB672A /* WFCCityWeather.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DDE80C961BAD704C00FB672A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDE80C8F1BAD6D8C00FB672A /* WFCViewController.h */,
+				DDE80C901BAD6D8C00FB672A /* WFCViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DDE80C971BAD705D00FB672A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DD58D29F1BAD6C5E00F82716 /* Main.storyboard */,
+				DDE80C961BAD704C00FB672A /* Controller */,
+				DDE80C951BAD704500FB672A /* Model */,
+				DDE80C9B1BAD737E00FB672A /* Service */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		DDE80C9B1BAD737E00FB672A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DDE80C981BAD726400FB672A /* WFCOpenWeatherService.h */,
+				DDE80C991BAD726400FB672A /* WFCOpenWeatherService.m */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD58D29E1BAD6C5E00F82716 /* ViewController.m in Sources */,
+				DDE80C9A1BAD726400FB672A /* WFCOpenWeatherService.m in Sources */,
+				DDE80C941BAD6FA700FB672A /* WFCCityWeather.m in Sources */,
+				DDE80C911BAD6D8C00FB672A /* WFCViewController.m in Sources */,
 				DD58D29B1BAD6C5E00F82716 /* AppDelegate.m in Sources */,
 				DD58D2981BAD6C5E00F82716 /* main.m in Sources */,
 			);
@@ -418,6 +462,7 @@
 				DD58D2B71BAD6C5E00F82716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD58D2B81BAD6C5E00F82716 /* Build configuration list for PBXNativeTarget "WeatherForecastDITests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +471,7 @@
 				DD58D2BA1BAD6C5E00F82716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

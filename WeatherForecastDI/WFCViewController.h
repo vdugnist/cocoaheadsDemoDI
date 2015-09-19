@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WFCViewController.h
 //  WeatherForecastDI
 //
 //  Created by Vladislav Dugnist on 19/09/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WFCViewController : UIViewController
 
 @end
-
