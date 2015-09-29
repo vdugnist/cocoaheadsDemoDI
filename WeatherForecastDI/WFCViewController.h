@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <BMInjectable.h>
 
 @protocol WFCWeatherServiceProtocol;
 
-@interface WFCViewController : UIViewController
+@interface WFCViewController : UIViewController <BMInjectable>
 
 @property (nonatomic) id <WFCWeatherServiceProtocol> weatherService;
 

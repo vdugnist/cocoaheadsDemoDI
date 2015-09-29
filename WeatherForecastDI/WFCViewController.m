@@ -16,16 +16,17 @@
 @end
 
 @implementation WFCViewController
+@dynamic weatherService;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    NSAssert(_weatherService, @"Weather service required");
+    NSAssert(self.weatherService, @"Weather service required");
     
     __weak typeof(self) wSelf = self;
     
-    [_weatherService citiesWeatherWithCallback:^(NSArray *array, NSError *error) {
+    [self.weatherService citiesWeatherWithCallback:^(NSArray *array, NSError *error) {
         wSelf.cities = array;
         [wSelf.tableView reloadData];
     }];

@@ -19,6 +19,7 @@
 		DDE80C9A1BAD726400FB672A /* WFCOpenWeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE80C991BAD726400FB672A /* WFCOpenWeatherService.m */; };
 		DDE80C9F1BAD848B00FB672A /* WFCLocalWeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE80C9E1BAD848B00FB672A /* WFCLocalWeatherService.m */; };
 		DDE80CA11BAD86D900FB672A /* Weather.json in Resources */ = {isa = PBXBuildFile; fileRef = DDE80CA01BAD86D900FB672A /* Weather.json */; };
+		DDF761981BBB294500CEADDA /* WFCConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF761971BBB294500CEADDA /* WFCConfigurator.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		DDE80C9D1BAD848B00FB672A /* WFCLocalWeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCLocalWeatherService.h; sourceTree = "<group>"; };
 		DDE80C9E1BAD848B00FB672A /* WFCLocalWeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCLocalWeatherService.m; sourceTree = "<group>"; };
 		DDE80CA01BAD86D900FB672A /* Weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Weather.json; sourceTree = "<group>"; };
+		DDF761961BBB294500CEADDA /* WFCConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCConfigurator.h; sourceTree = "<group>"; };
+		DDF761971BBB294500CEADDA /* WFCConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCConfigurator.m; sourceTree = "<group>"; };
 		F39AAD9536AD3691984F1285 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +131,8 @@
 			children = (
 				DD58D2991BAD6C5E00F82716 /* AppDelegate.h */,
 				DD58D29A1BAD6C5E00F82716 /* AppDelegate.m */,
+				DDF761961BBB294500CEADDA /* WFCConfigurator.h */,
+				DDF761971BBB294500CEADDA /* WFCConfigurator.m */,
 				DD58D2A21BAD6C5E00F82716 /* Images.xcassets */,
 				DD58D2A41BAD6C5E00F82716 /* LaunchScreen.xib */,
 				DD58D2961BAD6C5E00F82716 /* Info.plist */,
@@ -335,6 +340,7 @@
 				DDE80C941BAD6FA700FB672A /* WFCCityWeather.m in Sources */,
 				DDE80C911BAD6D8C00FB672A /* WFCViewController.m in Sources */,
 				DDE80C9F1BAD848B00FB672A /* WFCLocalWeatherService.m in Sources */,
+				DDF761981BBB294500CEADDA /* WFCConfigurator.m in Sources */,
 				DD58D29B1BAD6C5E00F82716 /* AppDelegate.m in Sources */,
 				DD58D2981BAD6C5E00F82716 /* main.m in Sources */,
 			);
