@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2079989EC3DE9533D44440DB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99DAC9D7FC9B93AD2D5054CD /* libPods.a */; };
 		DD58D2981BAD6C5E00F82716 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58D2971BAD6C5E00F82716 /* main.m */; };
 		DD58D29B1BAD6C5E00F82716 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58D29A1BAD6C5E00F82716 /* AppDelegate.m */; };
 		DD58D2A11BAD6C5E00F82716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD58D29F1BAD6C5E00F82716 /* Main.storyboard */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99DAC9D7FC9B93AD2D5054CD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A117E981DC5010478E3E97F2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DD58D2921BAD6C5E00F82716 /* WeatherForecastDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherForecastDI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD58D2961BAD6C5E00F82716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD58D2971BAD6C5E00F82716 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 		DDE80C9D1BAD848B00FB672A /* WFCLocalWeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCLocalWeatherService.h; sourceTree = "<group>"; };
 		DDE80C9E1BAD848B00FB672A /* WFCLocalWeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCLocalWeatherService.m; sourceTree = "<group>"; };
 		DDE80CA01BAD86D900FB672A /* Weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Weather.json; sourceTree = "<group>"; };
+		F39AAD9536AD3691984F1285 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2079989EC3DE9533D44440DB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +77,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B997CD4983A017D9C5B823C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99DAC9D7FC9B93AD2D5054CD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		351E82A3A9B3FE968F6AA51E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F39AAD9536AD3691984F1285 /* Pods.debug.xcconfig */,
+				A117E981DC5010478E3E97F2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DD58D2891BAD6C5E00F82716 = {
 			isa = PBXGroup;
 			children = (
 				DD58D2941BAD6C5E00F82716 /* WeatherForecastDI */,
 				DD58D2AE1BAD6C5E00F82716 /* WeatherForecastDITests */,
 				DD58D2931BAD6C5E00F82716 /* Products */,
+				351E82A3A9B3FE968F6AA51E /* Pods */,
+				0B997CD4983A017D9C5B823C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD58D2B51BAD6C5E00F82716 /* Build configuration list for PBXNativeTarget "WeatherForecastDI" */;
 			buildPhases = (
+				5224E577438CEF01068C9A51 /* Check Pods Manifest.lock */,
 				DD58D28E1BAD6C5E00F82716 /* Sources */,
 				DD58D28F1BAD6C5E00F82716 /* Frameworks */,
 				DD58D2901BAD6C5E00F82716 /* Resources */,
+				BAE34FBEEB1588FE75E3054D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +292,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5224E577438CEF01068C9A51 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAE34FBEEB1588FE75E3054D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD58D28E1BAD6C5E00F82716 /* Sources */ = {
@@ -403,6 +462,7 @@
 		};
 		DD58D2B61BAD6C5E00F82716 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39AAD9536AD3691984F1285 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeatherForecastDI/Info.plist;
@@ -413,6 +473,7 @@
 		};
 		DD58D2B71BAD6C5E00F82716 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A117E981DC5010478E3E97F2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeatherForecastDI/Info.plist;

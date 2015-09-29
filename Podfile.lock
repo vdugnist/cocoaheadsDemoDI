@@ -1,0 +1,38 @@
+PODS:
+  - BloodMagic (1.0.0):
+    - BloodMagic/Core (= 1.0.0)
+    - BloodMagic/Final (= 1.0.0)
+    - BloodMagic/Initializers (= 1.0.0)
+    - BloodMagic/Injectable (= 1.0.0)
+    - BloodMagic/Lazy (= 1.0.0)
+    - BloodMagic/Partial (= 1.0.0)
+    - BloodMagic/Preference (= 1.0.0)
+  - BloodMagic/Core (1.0.0)
+  - BloodMagic/Final (1.0.0):
+    - BloodMagic/Core
+  - BloodMagic/Initializers (1.0.0):
+    - BloodMagic/Core
+  - BloodMagic/Injectable (1.0.0):
+    - BloodMagic/Initializers
+  - BloodMagic/Lazy (1.0.0)
+  - BloodMagic/Partial (1.0.0):
+    - BloodMagic/Core
+  - BloodMagic/Preference (1.0.0):
+    - BloodMagic/Core
+
+DEPENDENCIES:
+  - BloodMagic (from `https://github.com/railsware/BloodMagic.git`)
+
+EXTERNAL SOURCES:
+  BloodMagic:
+    :git: https://github.com/railsware/BloodMagic.git
+
+CHECKOUT OPTIONS:
+  BloodMagic:
+    :commit: 7a11d89e7c0fc49b83fbe7a1f256327520212027
+    :git: https://github.com/railsware/BloodMagic.git
+
+SPEC CHECKSUMS:
+  BloodMagic: abe47bb75a1ffd2c4532a93b3ecf075ca384c9dd
+
+COCOAPODS: 0.38.2
