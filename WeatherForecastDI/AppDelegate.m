@@ -21,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     WFCViewController *vc = (WFCViewController*)self.window.rootViewController;
-    vc.weatherService = [WFCLocalWeatherService new];
+    vc.weatherService = [WFCOpenWeatherService new];
     
     return YES;
 }
